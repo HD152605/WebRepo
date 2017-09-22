@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Required meta tags -->
+
+<title>취미</title>
+<meta charset="utf-8">
+<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+<meta name="viewport"
+	content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet"
+	href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css">
+<link rel="stylesheet" href="../css/myblog.css">
+
+</head>
+<body>
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<a class="navbar-brand" href="myblog.html">Home</a>
+		<button class="navbar-toggler" type="button" data-toggle="collapse"
+			data-target="#navbarSupportedContent"
+			aria-controls="navbarSupportedContent" aria-expanded="false"
+			aria-label="Toggle navigation">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="navbarSupportedContent">
+			<ul class="navbar-nav mr-auto">
+				<li class="nav-item" onmouseover="menu_over(this);"
+					onmouseout="menu_out(this)"><a class="nav-link"
+					href="MINSUN.html">Who is MINSUN? <span class="sr-only">(current)</span>
+				</a></li>
+				<li class="nav-item" onmouseover="menu_over(this);"
+					onmouseout="menu_out(this)"><a class="nav-link"
+					href="like.html">Favorite</a></li>
+				<li class="nav-item" onmouseover="menu_over(this);"
+					onmouseout="menu_out(this)"><a class="nav-link"
+					href="habi.html">취미</a></li>
+			</ul>
+			<form class="form-inline my-2 my-lg-0" id="loginForm">
+				<input class="form-control mr-sm-2" type="text" placeholder="ID"
+					aria-label="ID" id="id" required> <input
+					class="form-control mr-sm-2" type="password" placeholder="PWD"
+					aria-label="PWD" id="pwd" required>
+				<button class="btn btn-outline-success my-2 my-sm-0" type="submit">로그인</button>
+				<button class="btn btn-outline-success my-2 my-sm-0"
+					onclick="location.href='register.html';">회원가입</button>
+			</form>
+		</div>
+	
+		<div class="modal" id="myModal">
+			<div class="modal-dialog" role="document">
+				<div class="modal-content">
+					<div class="modal-header">
+						<h5 class="modal-title">로그인 결과</h5>
+						<button type="button" class="close" data-dismiss="modal"
+							aria-label="Close">
+							<span aria-hidden="true">&times;</span>
+						</button>
+					</div>
+					<div class="modal-body">
+						<p></p>
+					</div>
+					<div class="modal-footer">
+						<button type="button" class="btn btn-secondary"
+							data-dismiss="modal">Close</button>
+					</div>
+				</div>
+			</div>
+		</div>
+	</nav>
+
+
+
+	<script src="habi.js"></script>
+
+
+	<h1>My hobby</h1>
+	<img src="../myblog/movie.jpg" alt="img"> 영화 보기
+	<br>
+	<br> 액션, 공포 등 다양한 장르의 영화를 보는 것을 좋아한다.
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<img src="../myblog/gita.jpg" alt="img"> 기타치기
+	<br>
+	<br> 어렸을때부터 배워서 계속 연주하고 있는 유일한 악기이다. 나름 자부심이 있다.
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<br>
+	<img src="../myblog/shopping.jpg" alt="img"> 쇼핑하기
+	<br>
+	<br> 어디서든 무얼사던 쇼핑할 때면 항상 기쁘다. 좋아하는만큼 자주 쇼핑을 한다.
+</body>
+</html>

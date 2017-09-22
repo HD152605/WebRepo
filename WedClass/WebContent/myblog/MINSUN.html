@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+<!-- Required meta tags -->
+<meta charset="utf-8">
+<!-- Optional JavaScript -->
+		<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
+		<script
+			src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js"></script>
+<meta name="viewport"
+   content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+<!-- Bootstrap CSS -->
+<link rel="stylesheet"
+   href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css"
+ >
+ <link rel="stylesheet" href="../css/myblog.css">
+
+
+<script>
+   function menu_over(e) {
+      e.setAttribute("calss", "nav-item active");
+   }
+   function menu_out(e) {
+      e.setAttribute("calss", "nav-item"); // <li class="nav-item">
+   }
+</script>
+
+<title>민선이는 누굴까?</title>
+
+</head>
+<body>
+   <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <a class="navbar-brand" href="myblog.html">Home</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse"
+         data-target="#navbarSupportedContent"
+         aria-controls="navbarSupportedContent" aria-expanded="false"
+         aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         <ul class="navbar-nav mr-auto">
+            <li class="nav-item" onmouseover="menu_over(this);"
+               onmouseout="menu_out(this)"><a class="nav-link" href="MINSUN.html">Who is MINSUN?
+                  <span class="sr-only">(current)</span>
+            </a></li>
+            <li class="nav-item" onmouseover="menu_over(this);"
+               onmouseout="menu_out(this)"><a class="nav-link" href="like.html">Favorite</a></li>
+            <li class="nav-item" onmouseover="menu_over(this);"
+               onmouseout="menu_out(this)"><a class="nav-link"
+               href="habi.html">취미</a></li>
+         </ul>
+         <form class="form-inline my-2 my-lg-0" id="loginForm">
+            <input class="form-control mr-sm-2" type="text" placeholder="ID"
+               aria-label="ID" id="id" required> <input
+               class="form-control mr-sm-2" type="password" placeholder="PWD"
+               aria-label="PWD" id="pwd" required>
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">로그인</button>
+            <button class="btn btn-outline-success my-2 my-sm-0" onclick="location.href='register.html';">회원가입</button>
+         </form>
+      </div>
+      </nav>
+      	<script src="habi.js"></script>
+	<div class="modal" id="myModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">로그인 결과</h5>
+					<button type="button" class="close" data-dismiss="modal"
+						aria-label="Close">
+						<span aria-hidden="true">&times;</span>
+					</button>
+				</div>
+				<div class="modal-body">
+					<p></p>
+				</div>
+				</div>
+				<div class="modal-footer">
+					<button type="button" class="btn btn-secondary"
+						data-dismiss="modal">Close</button>
+				</div>
+			</div>
+		</div>
+		
+<h1>블로그 주인 "김민선"씨를 소개합니다.</h1>
+<div id="content">
+<img src="../myblog/CUTE.jpg" alt="img">
+<p>이름 : 김민선</p>
+<p>키 : 171.5</p>
+<P>혈액형 : B형</P>
+<P>성격 : 유쾌하고 밝으며 긍정적이고 친화력이 좋으며 귀여운 성격</P>
+<P>좌우명 : 지금 놀면 나중에 노는 물이 달라진다.</P>
+<p>가족 : 엄마, 아빠, 여동생, 강아지(제이슨)</p>
+</div>
+</body>
+</html>
